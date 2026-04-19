@@ -137,6 +137,20 @@ TM1637 P2 → D10 / D11
 
 ---
 
+## 📸 Simulation
+
+<img width="1069" height="599" alt="image" src="https://github.com/user-attachments/assets/0ccab762-d627-453a-9a86-c5d82eeede62" />
+<img width="1055" height="615" alt="image" src="https://github.com/user-attachments/assets/0c560d6a-40b8-4330-968b-bcbb34735fb5" />
+<img width="1049" height="613" alt="image" src="https://github.com/user-attachments/assets/91bda2c1-875b-4162-929c-2f669b403c74" />
+
+
+---
+
+## 📸 Wiring & Schematic
+
+
+---
+
 # 🧠 ENGINEERING CONCEPTS
 
 - Finite State Machines (FSM)
