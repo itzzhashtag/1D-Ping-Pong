@@ -1,53 +1,47 @@
-# 🏓 1D LED PONG (Arduino Uno)
+<div align="center">
 
-A fast-paced, real-time **1D Pong game built on WS2812B LED strip + Arduino Uno**, featuring dual players, power mechanics, zone-based hits, scoring system, sound effects, and animated UI via TM1637 displays.
+# 🏓 1D Ping Pong
 
----
+**A Real-Time Arcade Physics Game on WS2812B LED Strip**
 
-## ⚡ What it is
+**by Aniket Chowdhury (aka `#Hashtag`)**
 
-A physical LED-based Pong game where two players battle using:
-- 🎯 Hit button (normal return)
-- ⚡ Power button (random/boost mechanics)
-- 🟦 Dynamic “hit zones”
-- 🔊 Sound feedback system
-- 🏆 First to reach target score wins
+<img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge&logo=arduino" />
+<img src="https://img.shields.io/badge/Platform-Arduino%20Uno-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Type-Embedded%20Arcade%20Game-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Players-2-red?style=for-the-badge" />
 
----
-
-## 🎮 Core Features
-
-- Real-time LED ball physics (left ↔ right movement)
-- Power-hit system:
-  - Power alone → random speed return
-  - Hit alone → normal return
-  - Hit + Power → boosted return + shrinking zone
-- Dual 7-segment score displays (P1 & P2)
-- Win animations + jingle
-- Idle rainbow animation mode
-- Forfeit system (hold both buttons for 10 sec)
-- Fully event-driven FSM architecture
+</div>
 
 ---
 
-## 🔧 Hardware
+## 🎬 Project Overview
 
-- Arduino Uno
-- WS2812B LED Strip
-- TM1637 7-Segment Displays (x2)
-- Passive buzzer
-- 4 buttons (Hit/Power per player)
+**1D LED PONG** is a fully interactive **hardware arcade game** built using an Arduino Uno and a WS2812B LED strip.
 
----
+A single LED acts as a **“ball”**, bouncing between two players.  
+Timing, reaction speed, and strategy determine who wins the rally.
 
-## 🧠 Status
-
-✔ Fully working FSM-based game engine  
-✔ Power-hit bug fixed (standalone power return enabled)  
-✔ Competitive arcade-style gameplay  
+> 🏓 First player to reach the winning score dominates the strip.
 
 ---
 
-## 🚀 Build it. Play it. Compete.
+## ⚡ What Makes This Different?
 
-A physical arcade Pong experience reimagined in LEDs.
+This is NOT a simple LED animation project.
+
+It is a:
+
+- 🎮 Fully **state-machine-driven arcade engine**
+- ⚡ Real-time **physics-based movement system**
+- 🎯 Competitive **reaction + timing game**
+- 🧠 Embedded software structured like a game engine
+
+---
+
+## 🔥 Core Gameplay Loop
+
+```text
+Serve → Ball Movement → Zone Entry → Player Reaction
+     → Hit / Power Input → Speed Calculation → Return
+     → Miss → Point Scored → Re-serve → Repeat
