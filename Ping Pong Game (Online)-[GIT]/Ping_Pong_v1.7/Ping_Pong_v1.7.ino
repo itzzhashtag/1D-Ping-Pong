@@ -54,6 +54,8 @@
  *  4. START states still block Power completely (unchanged, by design).
  *  5. All comments and Serial prints preserved / expanded.
  * ============================================================
+ * Wokwi Simulation : https://wokwi.com/projects/461754054622412801
+ * ============================================================
  */
 
 // ============================================================
