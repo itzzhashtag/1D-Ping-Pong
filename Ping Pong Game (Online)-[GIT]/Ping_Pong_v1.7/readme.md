@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏓⚡ 1D LED PONG – Arduino Physics Arcade Game
+# 🏓⚡ 1D-Ping Pong – Arduino Physics Arcade Game
 
 **A Real-Time 1D Physics-Based Pong Game using Arduino + WS2812B LED Strip**
 
