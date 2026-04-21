@@ -194,6 +194,8 @@ Install via Arduino Library Manager:
 
 ## 📸 Wiring & Schematic
 
+<img width="1513" height="898" alt="image" src="https://github.com/user-attachments/assets/091d7f61-8a17-4359-85cf-d1a9887edf63" />
+<img width="1309" height="922" alt="image" src="https://github.com/user-attachments/assets/23272860-fb67-4b9b-b2c2-2f741b99f7e9" />
 
 ---
 
