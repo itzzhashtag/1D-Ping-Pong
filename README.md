@@ -150,9 +150,9 @@ TM1637 P2 → D10 / D11
 
 ## 📸 Wiring & Schematic
 
-<img width="1368" height="829" alt="image" src="https://github.com/user-attachments/assets/9141dd7e-e6fd-4b05-8eb3-6fc028386975" />
+<img width="1362" height="832" alt="image" src="https://github.com/user-attachments/assets/d59e6c87-82de-439f-8d52-be0cc0ce4368" />
 .
-<img width="1371" height="889" alt="image" src="https://github.com/user-attachments/assets/0e4b9fc6-d1af-4e76-b4db-fa75928dfb0f" />
+<img width="1383" height="900" alt="image" src="https://github.com/user-attachments/assets/24d14983-c203-49b6-b131-648e6c2a072d" />
 .
 
 ---
